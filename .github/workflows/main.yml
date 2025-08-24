@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - 'features/**'
-      - 'main'
+      - 'master'
       - 'hotfix/**'
 
 jobs:
