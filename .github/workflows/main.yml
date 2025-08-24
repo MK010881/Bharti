@@ -1,0 +1,19 @@
+name: "my first project by github actions"
+
+on: 
+  push:
+    branches:
+      - 'features/**'
+      - 'main'
+      - 'hotfix/**'
+
+jobs:
+  terraforminit:
+    name: terraform init
+    runs-on: MKGIT
+    steps:
+      - name: my steps
+        run: echo Mritunjay
+    
+    
+      
