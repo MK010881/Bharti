@@ -10,10 +10,11 @@ on:
 jobs:
   mera_pehla_workflow:
     name: Anaysha
-    runs-on: MKGIT
+    runs-on: ubuntu-latest
     steps:
       - name: my steps
         run: echo Mritunjay
+
     
     
       
