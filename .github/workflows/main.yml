@@ -8,8 +8,8 @@ on:
       - 'hotfix/**'
 
 jobs:
-  terraforminit:
-    name: terraform init
+  mera_pehla_workflow:
+    name: Anaysha
     runs-on: MKGIT
     steps:
       - name: my steps
