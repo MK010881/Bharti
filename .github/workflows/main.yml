@@ -8,7 +8,7 @@ on:
       - 'hotfix/**'
 
 jobs:
-  mera_pehla_workflow:
+  terraforminit:
     name: Anaysha
     runs-on: self-hosted
     steps:
